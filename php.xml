@@ -1,4 +1,9 @@
 <application>
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <PhpCSConfiguration tool_path="/usr/local/bin/phpcs" />
+    </phpcs_settings>
+  </component>
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter home="sftp://ubuntu@192.168.2.100:22/usr/bin/php" id="4d6c3421-54a4-4e57-a43d-a8aa6261fd1c" name="Remote PHP 7" debugger_id="php.debugger.XDebug">
