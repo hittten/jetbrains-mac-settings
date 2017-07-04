@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="inventory/hosts" type="PLAIN_TEXT" />
       <mapping pattern="hosts" type="PLAIN_TEXT" />
+      <mapping ext="ini" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
