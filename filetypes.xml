@@ -1,7 +1,6 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="hosts" type="PLAIN_TEXT" />
       <mapping pattern="inventory/hosts" type="PLAIN_TEXT" />
       <mapping pattern="sfrkdm3u382ucfkdel2l0kong0" type="PLAIN_TEXT" />
