@@ -488,6 +488,29 @@
   </inspection_tool>
   <inspection_tool class="BadExpressionStatementJS" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="BadOddness" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="BashAddShebang" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="BashBuiltInVariable" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="BashDuplicateFunction" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="BashEvaluateArithmeticExpression" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="BashEvaluateExpression" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="BashFixShebang" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="BashFloatArithmetic" enabled="false" level="INFO" enabled_by_default="false" />
+  <inspection_tool class="BashGlobalLocalVarDef" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  <inspection_tool class="BashGloballyRegisteredVariable" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  <inspection_tool class="BashInternalCommandFunctionOverride" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  <inspection_tool class="BashMissingInclude" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="BashReadOnlyVariable" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="BashRecursiveInclusion" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="BashReplaceWithBackquote" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  <inspection_tool class="BashReplaceWithSubshell" enabled="false" level="INFO" enabled_by_default="false" />
+  <inspection_tool class="BashSimpleArrayUse" enabled="false" level="INFO" enabled_by_default="false" />
+  <inspection_tool class="BashSimpleVarUsage" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  <inspection_tool class="BashUnknownFileDescriptor" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="BashUnresolvedVariable" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="BashUnusedFunction" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="BashUnusedFunctionParams" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="BashWrapFunction" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  <inspection_tool class="BashWrapWord" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="BatchJobDomInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="BatchXmlDomInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="BeforeClassOrAfterClassIsPublicStaticVoidNoArg" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -879,6 +902,7 @@
     <option name="ignoreMethodCalls" value="false" />
   </inspection_tool>
   <inspection_tool class="DuplicateConditionJS" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="DuplicateKeyInSection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="DuplicateMnemonic" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="DuplicatePropertyInspection" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="CURRENT_FILE" value="true" />
@@ -887,6 +911,7 @@
     <option name="CHECK_DUPLICATE_KEYS" value="true" />
     <option name="CHECK_DUPLICATE_KEYS_WITH_DIFFERENT_VALUES" value="true" />
   </inspection_tool>
+  <inspection_tool class="DuplicateSectionInFile" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="DuplicateStringLiteralInspection" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="MIN_STRING_LENGTH" value="5" />
     <option name="IGNORE_PROPERTY_KEYS" value="false" />
@@ -1595,6 +1620,7 @@
     <option name="m_maxLength" value="64" />
   </inspection_tool>
   <inspection_tool class="JUnitTestNG" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="JadeTabsAndSpaces" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="Java8ArraySetAll" enabled="true" level="INFORMATION" enabled_by_default="true" />
   <inspection_tool class="Java8CollectionRemoveIf" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="Java8ListSort" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -2102,7 +2128,7 @@
   <inspection_tool class="PhpAssignmentReplaceableWithPrefixExpressionInspection" enabled="true" level="INFORMATION" enabled_by_default="true" />
   <inspection_tool class="PhpCSValidationInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
     <option name="CODING_STANDARD" value="Custom" />
-    <option name="CUSTOM_RULESET_PATH" value="$USER_HOME$/Workspace/appforus/api.geowhim.com/vendor/escapestudios/symfony2-coding-standard/Symfony2" />
+    <option name="CUSTOM_RULESET_PATH" value="$USER_HOME$/Apps/Symfony2-coding-standard/Symfony" />
   </inspection_tool>
   <inspection_tool class="PhpClassNamingConventionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="PhpConstantNamingConventionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
