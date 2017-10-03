@@ -2128,7 +2128,7 @@
   <inspection_tool class="PhpAssignmentReplaceableWithPrefixExpressionInspection" enabled="true" level="INFORMATION" enabled_by_default="true" />
   <inspection_tool class="PhpCSValidationInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
     <option name="CODING_STANDARD" value="Custom" />
-    <option name="CUSTOM_RULESET_PATH" value="$USER_HOME$/Workspace/viesgo/api.zohocore.viesgo.com/vendor/escapestudios/symfony2-coding-standard/Symfony2" />
+    <option name="CUSTOM_RULESET_PATH" value="$USER_HOME$/Apps/Symfony2-coding-standard/Symfony2" />
   </inspection_tool>
   <inspection_tool class="PhpClassNamingConventionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="PhpConstantNamingConventionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
