@@ -493,7 +493,10 @@
   <inspection_tool class="BashDuplicateFunction" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="BashEvaluateArithmeticExpression" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="BashEvaluateExpression" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="BashFixShebang" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="BashFixShebang" enabled="false" level="WARNING" enabled_by_default="false">
+    <shebang>/bin/bash</shebang>
+    <shebang>/bin/sh</shebang>
+  </inspection_tool>
   <inspection_tool class="BashFloatArithmetic" enabled="false" level="INFO" enabled_by_default="false" />
   <inspection_tool class="BashGlobalLocalVarDef" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="BashGloballyRegisteredVariable" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
@@ -829,6 +832,7 @@
   <inspection_tool class="CssUnresolvedCustomProperty" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="CssUnresolvedCustomPropertySet" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="CssUnusedSymbol" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="CsvValidation" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="CucumberDuplicatedStep" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="CucumberExamplesColon" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="CucumberJavaStepDefClassInDefaultPackage" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -1801,7 +1805,7 @@
       <list>
         <RulesetDescriptor>
           <option name="name" value="App PHPMD rule set" />
-          <option name="path" value="$USER_HOME$/Workspace/appforus/api.geowhim.com/phpmd.xml" />
+          <option name="path" value="$USER_HOME$/Workspace/viesgo/api.zohocore.viesgo.com/phpmd.xml" />
         </RulesetDescriptor>
       </list>
     </option>
