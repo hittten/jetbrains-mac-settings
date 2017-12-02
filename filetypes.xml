@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="Dockerfile-apache" type="Dockerfile" />
       <mapping pattern="Docker2" type="PLAIN_TEXT" />
       <mapping pattern="hosts" type="PLAIN_TEXT" />
       <mapping pattern="id_rsa_backoffice" type="PLAIN_TEXT" />
@@ -8,6 +9,7 @@
       <mapping pattern="kljbljk" type="PLAIN_TEXT" />
       <mapping pattern="sfrkdm3u382ucfkdel2l0kong0" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="Dockerfile-httpd" type="PLAIN_TEXT" />
       <mapping ext="j2" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="pub" type="PLAIN_TEXT" />
