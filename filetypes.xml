@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="access_log" type="ANSI Aware" />
       <mapping pattern="Dockerfile-apache" type="Dockerfile" />
       <mapping pattern="Dockerfile-aws" type="Dockerfile" />
       <mapping pattern="hosts" type="PLAIN_TEXT" />
