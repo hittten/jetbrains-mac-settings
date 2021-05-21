@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="Dockerfile-functions" type="AUTO_DETECTED" />
+      <mapping ext="rules" type="Firebase Rules" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
@@ -9,6 +10,7 @@
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping ext="key" type="PLAIN_TEXT" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <removed_mapping ext="rules" approved="true" type="Snakemake" />
     </extensionMap>
   </component>
 </application>
